@@ -1,0 +1,34 @@
+{
+  "name": "josecelano/php-kata-skeleton",
+  "license": "",
+  "description": "Base project for PHP katas.",
+  "require-dev": {
+    "phpunit/phpunit": "~4.1",
+    "phpspec/phpspec": "~2.1",
+    "mockery/mockery": "0.9.0",
+    "fzaninotto/faker": "~1.4",
+    "behat/behat": "^3.0"
+  },
+  "authors": [
+    {
+      "name": "Jose Celano",
+      "email": "josecelano@gmail.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "features/bootstrap"
+    ],
+    "psr-4": {
+      "Tests\\Kata\\": "tests/"
+    }
+  }
+}
