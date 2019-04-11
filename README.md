@@ -1,3 +1,7 @@
+> IMPORTANT: I found a better repo for a base bootstrap for PHP katas:
+
+https://github.com/CodiumTeam/php-kata-bootstrap
+
 # PHP Kata skeleton
 
 Base project for katas. In order to perform a kata, first of all you will need to install all of the dependencies. This can be done using
